@@ -1,0 +1,75 @@
+.AppBody {
+  width: 100vw;
+  height: 86.5vh;
+  background: url("../../images/background.png") no-repeat;
+  background-size: 100vw 68%;
+  background-position: bottom;
+  opacity: 1;
+  overflow-x: hidden;
+}
+
+.h1 {
+  position: relative;
+  top: 15%;
+  left: 141px;
+  width: 273px;
+  height: 67px;
+  text-align: left;
+  font-size: 60px;
+  line-height: 69px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  color: #555555;
+  opacity: 1;
+}
+
+.content {
+  position: relative;
+  top: 8%;
+  left: 141px;
+  width: 615px;
+  height: 137px;
+  text-align: left;
+  font: normal normal 300 18px/32px Ubuntu;
+  letter-spacing: 0px;
+  color: #555555;
+  opacity: 1;
+}
+
+.fairy {
+  position: relative;
+  top: -30%;
+  left: 65%;
+  filter: contrast(1);
+  opacity: 1;
+  z-index: 1;
+}
+
+.bg {
+  position: static;
+  top: -45%;
+  opacity: 1;
+}
+
+.AppBody > a {
+  position: absolute;
+  left: 141px;
+  line-height: 12em;
+  font-weight: bold;
+  letter-spacing: 0px;
+  color: #555555;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.AppBody > Button {
+  position: absolute;
+  border-radius: 60px;
+  background-color: white;
+  opacity: 1;
+  width: 352px;
+  height: 56px;
+  left: 0px;
+  bottom: 5%;
+  margin-left: 40%;
+}
