@@ -7,6 +7,7 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import CheckIcon from '@material-ui/icons/Check';
 import ToggleButton from '@material-ui/lab/ToggleButton';
+import Test from '../card.js';
 
 
 function getSteps() {
@@ -50,6 +51,7 @@ export default function HorizontalLabelPositionBelowStepper() {
   
 
   return (
+    
     <div className="root">
       
       <ToggleButton value="check" selected={selected} onChange={() => {setSelected(!selected);}}>
@@ -85,7 +87,12 @@ export default function HorizontalLabelPositionBelowStepper() {
             </div>
           </div>
         )}
+
       </div>
     </div>
+    
   );
 }
+<div className="offset-lg-6 ">
+<Test/>
+</div>
