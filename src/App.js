@@ -6,6 +6,7 @@ import  HorizontalLabelPositionBelowStepper from './components/AppBody/Second.js
 import DisableElevation from './components/back_button.js';
 import Test from './components/card.js';
 import ReactDOM from 'react-dom';
+import Secondslide from './components/AppBody/Second';
 
 
 function App() {
@@ -14,8 +15,10 @@ function App() {
       <NavbarComponent />
      
       <Route path="/" exact component={AppBody} />
-      <Route path="/secondslide" exact component={HorizontalLabelPositionBelowStepper } />
+      
       <Route path="/FirstSlide" exact component={AppBody} />
+      <Secondslide />
+      
       
       <DisableElevation />
     </Router>

@@ -62,14 +62,16 @@
   text-decoration: none;
 }
 
-.AppBody > Button {
+.button{
   position: absolute;
   border-radius: 60px;
   background-color: white;
   opacity: 1;
-  width: 352px;
+  /* width: 352px;
   height: 56px;
   left: 0px;
   bottom: 5%;
   margin-left: 40%;
+  padding-left: 5%; */
 }
+
